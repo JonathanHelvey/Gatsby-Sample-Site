@@ -1,0 +1,16 @@
+Login to Wordpress admin:
+
+login: gatsby
+pass: gatsby
+
+Start container: 
+docker-compose up -d
+
+Stop all containers: 
+docker stop $(docker ps -a -q)
+
+Remove all containers:
+docker rm $(docker ps -a -q)
+
+Remove all images:
+docker rmi $(docker images -a -q)
