@@ -39,6 +39,7 @@ const Layout = ({ children }) => {
           {children}
         </main>
       </Primary>
+      <Footer />
     </>
   )
 }
