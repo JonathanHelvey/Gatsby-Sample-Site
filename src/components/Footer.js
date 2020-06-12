@@ -11,7 +11,7 @@ const Footer = () => (
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <h1 className="whiteText">Contact</h1>
+          <h1 className="whiteText">Contact:</h1>
         </div>
       </div>
       <div className="row">
